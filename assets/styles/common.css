@@ -1,53 +1,52 @@
 @font-face {
-    font-family: 'TT Commons ';
-    src: local('TT Commons  Regular'), local('TT-Commons--Regular'),
-        url('/assets/fonts/TTCommons-Regular/TTCommons-Regular.woff2') format('woff2'),
-        url('/assets/fonts/TTCommons-Regular/TTCommons-Regular.woff') format('woff'),
-        url('/assets/fonts/TTCommons-Regular/TTCommons-Regular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
+  font-family: 'TT Commons';
+  src: local('TT Commons Regular'), local('TT-Commons--Regular'),
+    url('/assets/fonts/TTCommons-Regular/TTCommons-Regular.woff2') format('woff2'),
+    url('/assets/fonts/TTCommons-Regular/TTCommons-Regular.woff') format('woff'),
+    url('/assets/fonts/TTCommons-Regular/TTCommons-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'TT Commons ';
-    src: local('TT Commons  Demi Bold'), local('TT-Commons--Demi-Bold'),
-        url('/assets/fonts/TTCommons-DemiBold/TTCommons-DemiBold.woff2') format('woff2'),
-        url('/assets/fonts/TTCommons-DemiBold/TTCommons-DemiBold.woff') format('woff'),
-        url('/assets/fonts/TTCommons-DemiBold/TTCommons-DemiBold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
+  font-family: 'TT Commons';
+  src: local('TT Commons Demi Bold'), local('TT-Commons--Demi-Bold'),
+    url('/assets/fonts/TTCommons-DemiBold/TTCommons-DemiBold.woff2') format('woff2'),
+    url('/assets/fonts/TTCommons-DemiBold/TTCommons-DemiBold.woff') format('woff'),
+    url('/assets/fonts/TTCommons-DemiBold/TTCommons-DemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    /* Typography */
-    --family: "TT Commons", sans-serif;
-    --fw-normal: 400;
-    --fw-bold: 600;
+  /* Typography */
+  --font-family-base: 'TT Commons', sans-serif;
+  --font-weight-normal: 400;
+  --font-weight-bold: 600;
 
-    --fs-md: 18px;
-    --lh-md: 24px;
-    --ls-md: -0.01em;
+  --font-size-sm: 16px;
+  --line-height-sm: 20px;
+  --letter-spacing-sm: -0.01em;
 
-    --fs-sm: 16px;
-    --lh-sm: 20px;
-    --ls-sm: -0.01em;
+  --font-size-md: 18px;
+  --line-height-md: 24px;
+  --letter-spacing-md: -0.01em;
 
-    /* Colors */
-    --colors-main: #000000;
-    --colors-accent: #F51B1B;
-    --colors-white: #ffffff;
+  /* Colors */
+  --color-text: #ffffff;
+  --color-bg: #000000;
+  --color-accent: #F51B1B;
 }
 
 body {
-    margin: 0;
-    font-family: var(--family);
-    font-weight: var(--fw-normal);
-    color: var(--colors-white);
-    background-color: var(--colors-main);
+  font-family: var(--font-family-base);
+  font-weight: var(--font-weight-normal);
+  color: var(--color-text);
+  background-color: var(--color-bg);
 }

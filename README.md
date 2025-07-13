@@ -1,18 +1,12 @@
-# covere-letter
+# Cover letter
 
-<p>A page with brief information about my skills and experience in development</p>
+A page with brief information about my skills and experience in frontend development.
 
-## Technologies
+## Deploy
 
-<div>
-<img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
-<img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
-</div>
+- https://maria2721.github.io/cover-letter/
 
-## Getting started
+## Technology Stack
 
-<p>Host the parent directory on the webserver</p>
-
-## Result
-
-https://maria2721.github.io./covere-letter/
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" title="HTML" alt="HTML" width="40" height="40"/>&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" title="CSS" alt="CSS" width="40" height="40"/>&nbsp;
